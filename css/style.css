@@ -12,23 +12,23 @@ body {
         outline-color:rgba(81, 43, 129,0.5);
         background: linear-gradient(to right,rgba(253,175,123,0.12),rgb(81, 43, 129,0.8));
         }
-        h1 {
+        .splash h1 {
             font-family: "Brygada 1918",serif;
             font-weight: 400;
             font-optical-sizing: auto;
             font-style: normal;
             color: rgb(0, 1, 88);
         }
-        img {
+        .splash img {
             border-radius: 30px 30px 20px 20px;
             border-style: inset;
             border-width: 5px;
             border-color: rgba(81, 43, 129,0.5);
         }
-        .address {
+        .splash .address {
             font-family: "EB Garamond",serif;
         }
-        .tagLine {
+        .splash .tagLine {
             font-family: "EB Garamond", serif;
         }
         hr {
@@ -118,6 +118,8 @@ body {
             }
         }
         .one-col {
+            box-shadow: 3px 3px 4px grey;
+            padding:3px;
             display: grid;
             grid-template-columns: 1fr;
             grid-auto-flow: row;
@@ -132,11 +134,15 @@ body {
             width:400px;
             height: 300px;
         }
-        label {
-            font-family: "Brygada 1918",serif;
+        .one-col label {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-style: italic;
         }
         #submit {
             margin-bottom: 10px;
+            margin-top: 10px;
+            box-shadow: 2px 2px 3px black;
+            background-color: rgba(11, 132, 148, 0.2);
         }
 }
 footer {
