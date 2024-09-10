@@ -8,7 +8,7 @@
     <link rel="stylesheet" href = "css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400..700;1,400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400..700;1,400..700&family=Domine:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav>
@@ -18,12 +18,12 @@
     <section class = "splash">
         <h1>Sara E. Free</h1>
         <img src="images/headshot.jpg" width="96" height="205">
-        <p>&#127969; Address: 255 Jennings Mill Pkwy | &#128241; Phone: (470)-262-0850 | &#128231; E-mail: sara.el.free@gmail.com</p>
-        <p>I am a Student developer with a wide range of experiences to contribute to every project.</p>
+        <p class = "address">&#127969; Address: 255 Jennings Mill Pkwy | &#128241; Phone: (470)-262-0850 | &#128231; E-mail: sara.el.free@gmail.com</p>
+        <p class = "tagLine">I am a Student developer with a wide range of experiences to contribute to every project.</p>
     </section>
     <hr>
     <section>
-        <h2>Education</h2>
+        <h2 class = "education">Education</h2>
         <p>University of Georgia, 2025, Computer Science, 3.2 GPA</p>
     </section>
     <section>
@@ -58,28 +58,39 @@
     </section>
     <section>
         <h2>Projects</h2>
-        <h3>MySQL Billionaires Database Website</h3>
-        <ul>
-            <li>A website created using extensive knowledge of Java, Spring Boot, and mySQL. A database on billionaires is used to allow the user to make queries to the database and craft conclusions about the data overall.</li>
-            <li>Spring Boot was the main framework of the project, assisting massively with efficiency and workflow.</li>
-            <li>User password and username for mySQL database access is included to allow ease of access to the queried database.</li>
-            <li>Utilization of a Service layer, Repository layer, and Model layer that work together to access the database and the five tables that exist within it. </li>
-            <li>Created using Visual Studio Code, as well as IntelliJ IDEA.</li>
-        </ul>
-        <h3>Digging With Friends</h3>
-        <ul>
-            <li>Digging With Friends is an in-progress game created as practice for skills learned, as well as learning new skills, shortcuts, and improvement of workflow. It is a puzzle game that features players vs. AI combat.</li>
-            <li>Use of Blender to make in-game assets.</li>
-            <li>Includes C++, with knowledge of Blueprint being used. Hardcoding C++ was used rather than Blueprint to allow further understanding as to what goes on behind the scenes with Blueprints and have a better handling of the language.</li>
-            <li>Through collaboration with another student developer, teamwork was and still is vital to the project, as we continue to learn and work together on all aspects of the project.</li>
-        </ul>
-        <h3>Pokemon API App</h3>
-        <ul>
-            <li>Utilizes two APIs, Pokemon TCG API and PokeAPI, that return information based on a user query. It will display the user's selected Pokemon's TCG card, in-game sprites, as well as the artist who drew the art on the card, and the description of the Pokemon itself.</li>
-            <li>The application utilizes numerious java classes, most notably the javafx class.</li>
-            <li>The APIs are accessed via an HttpClient whom recieves the request and returns what it has gathered in a parsed response.</li>
-            <li>The Pokemon API app is multi-threaded to allow the program to run more smoothly and efficiently.</li>
-        </ul>
+            <div class = "three-col">
+                <div class = "mySQL">
+                    <img class="sql" src="images/BillionairesDB.png" width="275" height="205">
+                    <h3>MySQL Billionaires Database Website</h3>
+                        <ul>
+                            <li>A website created using extensive knowledge of Java, Spring Boot, and mySQL. A database on billionaires is used to allow the user to make queries to the database and craft conclusions about the data overall.</li>
+                            <li>Spring Boot was the main framework of the project, assisting massively with efficiency and workflow.</li>
+                            <li>User password and username for mySQL database access is included to allow ease of access to the queried database.</li>
+                            <li>Utilization of a Service layer, Repository layer, and Model layer that work together to access the database and the five tables that exist within it. </li>
+                            <li>Created using Visual Studio Code, as well as IntelliJ IDEA.</li>
+                        </ul>
+                </div>
+                <div class = "DwF">
+                    <img class="dwf" src="images/UnrealImage.jpg" width="275" height="205">
+                    <h3>Digging With Friends</h3>
+                        <ul>
+                            <li>Digging With Friends is an in-progress game created as practice for skills learned, as well as learning new skills, shortcuts, and improvement of workflow. It is a puzzle game that features players vs. AI combat.</li>
+                            <li>Use of Blender to make in-game assets.</li>
+                            <li>Includes C++, with knowledge of Blueprint being used. Hardcoding C++ was used rather than Blueprint to allow further understanding as to what goes on behind the scenes with Blueprints and have a better handling of the language.</li>
+                            <li>Through collaboration with another student developer, teamwork was and still is vital to the project, as we continue to learn and work together on all aspects of the project.</li>
+                        </ul>
+                </div>
+                <div class = "Pokemon">
+                    <img class="poke" src="images/AppHeaderImage.png" width="275" height="205">
+                    <h3>Pokemon API App</h3>
+                        <ul>
+                            <li>Utilizes two APIs, Pokemon TCG API and PokeAPI, that return information based on a user query. It will display the user's selected Pokemon's TCG card, in-game sprites, as well as the artist who drew the art on the card, and the description of the Pokemon itself.</li>
+                            <li>The application utilizes numerious java classes, most notably the javafx class.</li>
+                            <li>The APIs are accessed via an HttpClient whom recieves the request and returns what it has gathered in a parsed response.</li>
+                            <li>The Pokemon API app is multi-threaded to allow the program to run more smoothly and efficiently.</li>
+                        </ul>
+                </div>
+            </div>
     </section>
 </body>
 <footer>
