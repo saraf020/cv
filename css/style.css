@@ -1,0 +1,38 @@
+body {
+    margin-left: 0cm;
+    margin-right: 0cm;
+    margin-top: 0cm;
+    margin-bottom: 0cm;
+    /*font-family: Georgia, 'Times New Roman', Times, serif; */
+    nav {
+        display: flex;
+        gap: 30px;
+        outline-style: inset;
+        outline-width: 4px;
+        outline-color:rgba(81, 43, 129,0.5);
+        background: linear-gradient(to right,rgba(253,175,123,0.12),rgb(81, 43, 129,0.8));
+        }
+        h1 {
+            font-family: "Brygada 1918",serif;
+            font-weight: 400;
+            font-optical-sizing: auto;
+            font-style: normal;
+            color: rgb(0, 1, 88);
+        }
+        img {
+            border-radius: 30px 30px 20px 20px;
+            border-style: inset;
+            border-width: 5px;
+            border-color: rgba(81, 43, 129,0.5);
+        }
+}
+footer {
+    display: flex;
+    outline-color: rgba(69, 4, 246, 0.5);
+    outline-width: 6px;
+    outline-style: outset;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,rgba(81, 43, 129, 0.831),white,rgb(11, 132, 148));
+}
